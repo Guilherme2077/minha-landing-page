@@ -1,0 +1,76 @@
+body {
+    background-color: #F5F4F6;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.322);
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.164);
+    background-color: #2F1A77;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.produto {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.322);
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.164);
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+}
+
+.preco {
+    color: black;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #24135a;
+}
+
+#logo {
+    height: 100%;
+}
+
+#texto-da-logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: white;
+    padding-left: 15px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+/* Seção de Produtos */
+a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.ver-no-site {
+    font-weight: bold;
+    color: white;
+    background-color: #2F1A77;
+    border: solid 1px rgba(0, 0, 0, 0.322);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #747474;
+}
